@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.evenBigger-container {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+}
+
+#container {
+  justify-content: center;
+  margin: auto;
+  border: 10px solid violet;
+  height: 900px;
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.manyDivs {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  
+
+}
+
+
+
