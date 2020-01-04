@@ -19,7 +19,7 @@ h1 {
   margin: auto;
   border: 10px solid violet;
   height: 900px;
-  width: 850px;
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -28,8 +28,7 @@ h1 {
   width: 50px;
   height: 50px;
   border: 1px solid black;
-  
-
+  margin: 1px 1px;
 }
 
 
