@@ -1,4 +1,6 @@
 let containerJS = document.getElementById('container');
+let element = document.getElementsByClassName('manyDivs');
+
 
 for ( let i = 0; i < 16*16 ; i++ ) {
   const newDivs = document.createElement('div');
@@ -7,13 +9,14 @@ for ( let i = 0; i < 16*16 ; i++ ) {
 
 }
 
-
-  let element = document.getElementsByClassName('manyDivs');
-
-  for(let i = 0; i < element.length; i++) {
-    element[i].addEventListener('mouseover', function(){
-      this.style.background = 'black';
-    });
-  }
+for(let i = 0; i < element.length; i++) {
+  element[i].addEventListener('mouseover', function(){
+    this.style.background = 'black';    
+  });
+}
 
 
+function newGrid() {
+  let grid = window.prompt('Please enter grid size, maximum is 64');
+
+}
