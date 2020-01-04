@@ -3,32 +3,48 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-image: url('https://mikuta.nu/wp-content/uploads/2019/10/mikuta-casa-cozy-mikuta-builds-kalklitir-wall-paint-10.jpg');
+  background-size: contain;
+  background-repeat: round;
+
+}
 
 h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.evenBigger-container {
+
+
+#btn-container {
   display: flex;
-  height: 100vh;
-  width: 100vh;
+  justify-content: space-around;
+  width: 500px;
+  height: 75px;
+  margin: auto;
+  align-items: flex-end;
+  
+
 }
+
 
 #container {
   justify-content: center;
-  margin: auto;
-  border: 10px solid violet;
-  height: 900px;
-  width: 900px;
+  margin: 20px auto;
+  height: 800px;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
+  
+  
 }
+
 
 .manyDivs {
   width: 50px;
   height: 50px;
-  border: 1px solid black;
-  margin: 1px 1px;
 }
 
 
