@@ -44,13 +44,15 @@ h1 {
   display: grid;
   grid-template-columns: repeat(var(--CSSgrid), 1fr);
   grid-template-rows: repeat(var(--CSSgrid), 1fr);
+  border: 1px solid black;
+  opacity: 0.9;
 }
 
 
 .manyDivs {
   width: auto;
   height: auto;
-  border: 0.5px solid yellow;
+  border: 0.3px solid black;
 }
 
 
